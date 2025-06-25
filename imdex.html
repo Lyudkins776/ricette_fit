@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Ricettario Fit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🍽️ Il Mio Ricettario Fit</h1>
+            <button id="theme-toggle" class="theme-btn">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="intro">
+            <h2>Ricette Sane e Gustose</h2>
+            <p>Scopri le mie ricette preferite per mantenerti in forma senza rinunciare al gusto!</p>
+        </div>
+
+        <div class="recipes-grid">
+            <div class="recipe-card" data-recipe="pancake">
+                <div class="recipe-image">🥞</div>
+                <h3>Pancake Fit</h3>
+                <p>Deliziosi pancake proteici per iniziare la giornata con energia</p>
+                <button class="view-recipe-btn">Visualizza Ricetta</button>
+            </div>
+
+            <div class="recipe-card" data-recipe="carbonara">
+                <div class="recipe-image">🍝</div>
+                <h3>Carbonara Fit</h3>
+                <p>La carbonara che ami, ma in versione più leggera e salutare</p>
+                <button class="view-recipe-btn">Visualizza Ricetta</button>
+            </div>
+
+            <div class="recipe-card" data-recipe="nuggets">
+                <div class="recipe-image">🍗</div>
+                <h3>Nuggets Fit</h3>
+                <p>Nuggets croccanti al forno, perfetti per uno snack proteico</p>
+                <button class="view-recipe-btn">Visualizza Ricetta</button>
+            </div>
+
+            <div class="recipe-card" data-recipe="gelato">
+                <div class="recipe-image">🍦</div>
+                <h3>Gelato Fit</h3>
+                <p>Gelato cremoso e rinfrescante senza sensi di colpa</p>
+                <button class="view-recipe-btn">Visualizza Ricetta</button>
+            </div>
+
+            <div class="recipe-card" data-recipe="crocche">
+                <div class="recipe-image">🥔</div>
+                <h3>Crocché Siciliane Fit</h3>
+                <p>Le tradizionali crocché siciliane in versione più salutare</p>
+                <button class="view-recipe-btn">Visualizza Ricetta</button>
+            </div>
+
+            <div class="recipe-card" data-recipe="crema_caffe">
+                <div class="recipe-image">☕️</div>
+                <h3>Crema al caffè</h3>
+                <p>Per le calde giornate estive quando è il momento di rigenerarsi</p>
+                <button class="view-recipe-btn">Visualizza Ricetta</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal per le ricette -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title"></h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="recipe-content">
+                    <!-- Il contenuto della ricetta verrà inserito qui -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Il Mio Ricettario Fit. Fatto con ❤️ per chi ama cucinare sano.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
