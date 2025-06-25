@@ -74,7 +74,7 @@ class RecipeModal {
                     </div>
                     <div class="recipe-section">
                         <h3>💡 Consigli:</h3>
-                        <p>Frulla tutti gli ingredienti fino ad ottenere un composto liscio. Cuoci in padella antiaderente a fuoco altissimi. Perfetti con frutti di bosco freschi e fritti!</p>
+                        <p>Frulla tutti gli ingredienti fino ad ottenere un composto liscio. Cuoci in padella antiaderente a fuoco altissimo. Perfetti con frutti di bosco freschi e fritti!</p>
                     </div>
                 `
             },
@@ -88,7 +88,7 @@ class RecipeModal {
                         • 15g di sale<br>
                         • olio qb<br>
                         • 1 scarpa possibilmente sporca<br>
-                        • trippa alla romana
+                        • trippa alla romana<br>
                         • maiale ancora vivo che mangia del guanciale a sua volta e la vostra pasta<br>
                         • querela di DS (chi vuole intendere intenda)<br>   
                         • frutti rossi qb<br>
@@ -164,7 +164,7 @@ class RecipeModal {
                         <p>• 200ml di latte scaduto<br>
                         • caffè solubile come se foste dipendenti dalla caffeina<br>
                         • 3kg di tabacco trinciato<br>
-                        • cd dei Linkin Parl<br>
+                        • cd dei Linkin Park<br>
                         • Ghiaccio </p>
                     </div>
                     <div class="recipe-section">
