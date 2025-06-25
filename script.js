@@ -169,7 +169,7 @@ class RecipeModal {
                     </div>
                     <div class="recipe-section">
                         <h3>💡 Consigli:</h3>
-                        <p>Monta tutti gli ingredienti con un frullatore per 2-3 minuti fino ad ottenere una crema spumosa. Il ghiaccio non va assolutamente aggiunto nella preparazione va tenuto in bocca e riscalto con amore</p>
+                        <p>Monta tutti gli ingredienti con un frullatore per 2-3 minuti fino ad ottenere una crema spumosa. Il ghiaccio non va assolutamente aggiunto nella preparazione va tenuto in bocca e riscaldato con amore</p>
                     </div>
                 `
             }
